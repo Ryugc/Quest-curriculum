@@ -1,1 +1,0 @@
-{"index.js":"// Online Javascript Editor for free\n// Write, Edit and Run your Javascript code using JS Online Compiler\nfunction reverseString(text){\nlet txtback=\"\";\nfor(let i=text.length-1;i>=0;i--){\ntxtback += text[i];\n\n}\nreturn txtback;\n\n\n\n};\nconsole.log(reverseString(\"hello\"));\n"}
