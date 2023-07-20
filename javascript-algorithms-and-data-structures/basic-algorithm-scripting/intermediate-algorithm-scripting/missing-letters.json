@@ -1,0 +1,1 @@
+{"index.js":"function fearNotLetter(str) {\n  for(let i=0; i < str.length; i++){\n const charCode = str.charCodeAt(i);\nif(charCode!== str.charCodeAt(0)+i){\n return String.fromCharCode(charCode-1);\n}\n }\n return undefined;\n  }\nconsole.log(fearNotLetter(\"abce\")); "}

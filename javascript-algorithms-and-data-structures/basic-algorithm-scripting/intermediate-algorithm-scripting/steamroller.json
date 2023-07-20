@@ -1,0 +1,1 @@
+{"index.js":"function steamrollArray(arr) {\n const filterArray = [];\n for( let i= 0; i < arr.length; i++){\n     if(Array.isArray(arr[i])){\n         filterArray.push(...steamrollArray(arr[i]));\n     } else{\n         filterArray.push(arr[i]);\n     }\n }\n return filterArray;\n}\n\nconsole.log(steamrollArray([1, [2], [3, [[4]]]]));"}
