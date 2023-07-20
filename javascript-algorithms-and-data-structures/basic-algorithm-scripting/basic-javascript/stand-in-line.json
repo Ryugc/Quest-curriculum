@@ -1,0 +1,1 @@
+{"index.js":"function nextInLine(arr,item){\n  arr.push(item);\n  const out=arr.shift();\n  return out;\n}\nvar testArr=[1,2,3,4,5];\n\nconsole.log(nextInLine([5]));"}
