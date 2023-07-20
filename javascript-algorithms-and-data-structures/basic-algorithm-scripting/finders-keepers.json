@@ -1,1 +1,0 @@
-{"index.js":"function findElement(count, func){\n    let num=0;\n    for(let i=0; i<count.length; i++){\n        num = count[i];\n        if(func(num)){\n          return num;\n        }\n    } \n    return undefined;\n}\nconsole.log(findElement([1, 3, 5, 8, 9, 10], function(num) { return num % 2 === 0; }));\n"}
