@@ -1,0 +1,1 @@
+{"index.js":"function findLongestWordLength(word){\nlet txt=word.split(\" \");\nlet txtmax = 0;\nconsole.log(txt);\nfor(let i = 0; i<txt.length; i++){\nif(txt[i].length > txtmax){\ntxtmax=txt[i].length;\n}\n}\nreturn txtmax;\n};\nconsole.log(findLongestWordLength(\"May the force be with you\"));"}

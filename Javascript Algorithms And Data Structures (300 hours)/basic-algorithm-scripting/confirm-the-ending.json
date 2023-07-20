@@ -1,0 +1,1 @@
+{"index.js":"function confirmEnding(str,endCheck){\nreturn str.slice(str.length-endCheck.length)===endCheck;\n\n    }\nconsole.log(confirmEnding(\"Bastian\",\"n\"));"}
