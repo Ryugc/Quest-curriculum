@@ -1,1 +1,0 @@
-{"index.js":"function booWho (booLean){\nreturn(booLean === true|| booLean == false);\n}\nconsole.log(booWho(true));"}

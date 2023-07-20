@@ -1,1 +1,0 @@
-{"index.js":"let users = {\nAlan: {\nage: 27,\nonline: true\n},\nJeff: {\nage: 32,\nonline: true\n},\nSarah: {\nage: 48,\nonline: true\n},\nRyan: {\nage: 19,\nonline: true\n}\n};\n\nfunction isEveryoneHere(userObj) {\nreturn [\"Alan\", \"Jeff\", \"Sarah\", \"Ryan\"].every(name =>\nuserObj.hasOwnProperty(name)\n);\n}"}

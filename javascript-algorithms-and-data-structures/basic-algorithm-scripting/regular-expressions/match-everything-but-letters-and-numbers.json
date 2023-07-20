@@ -1,1 +1,0 @@
-{"index.js":"let quoteSample = \"The five boxing wizards jump quickly.\";\nlet nonAlphabetRegex = /\\W/g; // Change this line\nlet result = quoteSample.match(nonAlphabetRegex).length;"}

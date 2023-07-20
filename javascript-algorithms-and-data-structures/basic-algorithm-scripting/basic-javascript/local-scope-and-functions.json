@@ -1,1 +1,0 @@
-{"index.js":"function myLocalScope() {\n  // you shouldn't need to edit this line\n var myVar=\"hi\";\n  console.log(myVar);\n}\nmyLocalScope();\n\n"}

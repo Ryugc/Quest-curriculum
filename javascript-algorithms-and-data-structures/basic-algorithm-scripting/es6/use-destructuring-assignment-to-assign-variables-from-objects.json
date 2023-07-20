@@ -1,1 +1,0 @@
-{"index.js":"function getLength(str) {\n  \"use strict\";\n\n  // change code below this line\n  const {length:len} = str; // change this\n  // change code above this line\n\n  return len; // you must assign length to len in line\n\n}\n\nconsole.log(getLength('FreeCodeCamp'));"}

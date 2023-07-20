@@ -1,1 +1,0 @@
-{"index.js":"function checkPositive(arr) {\n  // Add your code below this line\n  return arr.some(val => val > 0);\n  \n  // Add your code above this line\n}\ncheckPositive([1, 2, 3, -4, 5,-3]);"}
