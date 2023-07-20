@@ -1,1 +1,0 @@
-{"index.js":"function frankenSplice(arr1, arr2, num){\n   let relarr = arr2.slice();\n   console.log(relarr);\n   for(let i=0; i<arr1.length; i++){\n   relarr.splice(num, 0, arr1[i]);\n   num++;\n}\nreturn relarr;\n}\nconsole.log(frankenSplice([\"claw\", \"tentacle\"], [\"head\", \"shoulders\", \"knees\", \"toes\"], 2));"}
