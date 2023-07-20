@@ -1,0 +1,1 @@
+{"index.js":"function convertToF(celsius){\n\n\nlet fahrenheit;\n\n\nfahrenheit = celsius*9/5+32;\nreturn fahrenheit;\n};\nconsole.log(convertToF(-30));"}
