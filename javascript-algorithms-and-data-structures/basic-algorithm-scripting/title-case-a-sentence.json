@@ -1,1 +1,0 @@
-{"index.js":"function titleCase(str) {\nreturn str\n.toLowerCase()\n.replace(/(^|\\s)\\S/g, L => L.toUpperCase());\n}\nconsole.log(titleCase(\"I'm a little tea pot\"));"}
